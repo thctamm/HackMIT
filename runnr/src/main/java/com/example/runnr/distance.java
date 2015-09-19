@@ -4,24 +4,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.graphics.Typeface;
-import android.widget.TextView;
 
-public class launchscreen extends AppCompatActivity {
+public class distance extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_launchscreen);
-        TextView myTextView=(TextView)findViewById(R.id.launchName);
-        Typeface typeFace=Typeface.createFromAsset(getAssets(),"fonts/AlegreyaSans-Light.ttf");
-        myTextView.setTypeface(typeFace);
+        setContentView(R.layout.activity_distance);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_launchscreen, menu);
+        getMenuInflater().inflate(R.menu.menu_distance, menu);
         return true;
     }
 

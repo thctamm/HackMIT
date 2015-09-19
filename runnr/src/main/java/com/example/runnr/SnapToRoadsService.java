@@ -1,6 +1,5 @@
 package com.example.runnr;
 
-
 import android.content.Context;
 import android.content.res.Resources;
 
@@ -18,12 +17,12 @@ public class SnapToRoadsService {
         interpolate = res.getBoolean(R.bool.interpolate);
     }
 
-    public String getSnappedWaypoints(geoLoc[] initialPoints) {
+    public String getSnappedWaypoints(GeoLoc[] initialPoints) {
         String URI = "https://roads.googleapis.com/v1/snapToRoads?path=";
-        for(geoLoc loc: initialPoints) {
+        for(GeoLoc loc: initialPoints) {
             URI = URI.concat(Float.toString(loc.getLatitude()));
             URI = URI.concat(",");
-            URI = URI.concat(Float.toString(loc.getLatitude()));
+            URI = URI.concat(Float.toString(loc.getLongitude()));
             URI = URI.concat("|");
         }
         URI = URI.substring(0, URI.length() - 1);

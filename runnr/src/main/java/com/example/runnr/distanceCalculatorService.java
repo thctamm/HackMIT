@@ -6,6 +6,6 @@ package com.example.runnr;
  */
 public class distanceCalculatorService {
     public float[] generateCircle(int numberOfPoints, int radius){
-        
+
     }
 }

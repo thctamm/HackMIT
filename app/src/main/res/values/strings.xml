@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HackMIT</string>
+    <string name="gmaps_api_key">KEY GOES HERE</string>
 </resources>

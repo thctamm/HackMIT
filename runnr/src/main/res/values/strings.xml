@@ -3,5 +3,7 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="launch_text">r u n n r</string>
+    <string name="title_activity_distance">distance</string>
     <string name="gmapsKey">THIS IS A KEY.... or is it?</string>
 </resources>

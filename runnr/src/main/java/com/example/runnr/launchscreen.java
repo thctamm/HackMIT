@@ -4,8 +4,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.graphics.Typeface;
-import android.widget.TextView;
 
 public class launchscreen extends AppCompatActivity {
 
@@ -13,9 +11,6 @@ public class launchscreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_launchscreen);
-        TextView myTextView=(TextView)findViewById(R.id.launchName);
-        Typeface typeFace=Typeface.createFromAsset(getAssets(),"fonts/AlegreyaSans-Light.ttf");
-        myTextView.setTypeface(typeFace);
     }
 
     @Override

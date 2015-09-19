@@ -3,12 +3,12 @@ package com.example.runnr;
 /**
  * Created by timothy on 9/19/15.
  */
-public class geoLoc {
+public class GeoLoc {
 
     private float longitude;
     private float latitude;
 
-    public geoLoc(float initLong, float initLat) {
+    public GeoLoc(float initLong, float initLat) {
             longitude = initLong;
             latitude = initLat;
             }
